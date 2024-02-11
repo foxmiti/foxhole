@@ -7,3 +7,6 @@ Usage example:
 
 TODO:
 CI/CD
+###
+DISCLAIMER
+Everything presented in this repository is for educational purposes only
